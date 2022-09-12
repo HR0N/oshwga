@@ -1,0 +1,32 @@
+header{
+    position: sticky;
+    background-color: rgb(52, 52, 52);
+    font-family: sans-serif;
+    height: 50px;
+    top: 0;
+    z-index: 5;
+    padding: 15px 0;
+    transition: linear all .3s;
+}
+header nav{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item a{
+    padding: 3px 6px;
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.nav-item a:hover{
+    color: #b1c8ff;
+}
+.min_header{
+    height: 40px;
+    padding: 10px 0;
+}
