@@ -1,0 +1,28 @@
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.services-block{
+    width: 800px;
+    max-width: 800px;
+}
+.services-block h2{
+    margin: 15px 0;
+}
+.block-item.dropdown{
+    user-select: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.service{
+    padding: 2px 10px;
+}
+.service:nth-child(odd){
+    background-color: #e6e6e6;
+}
+.dropdown-menu .service .price{
+    color: darkgreen;
+}

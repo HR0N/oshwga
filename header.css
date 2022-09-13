@@ -6,7 +6,7 @@ header{
     top: 0;
     z-index: 5;
     padding: 15px 0;
-    transition: linear all .3s;
+    transition: linear all .2s;
 }
 header nav{
     width: 60%;
@@ -24,9 +24,15 @@ header nav{
     cursor: pointer;
 }
 .nav-item a:hover{
-    color: #b1c8ff;
+    color: rgb(255, 149, 19);
+}
+.nav-item a:hover{
+    color: rgb(255, 149, 19);
 }
 .min_header{
     height: 40px;
     padding: 10px 0;
+}
+.dropdown-show{
+    display: block;
 }

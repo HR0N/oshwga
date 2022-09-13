@@ -1,0 +1,42 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main .info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    box-shadow: 0 0 6px grey;
+}
+main .info div{
+    min-width: 310px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    text-align: center;
+}
+.info .work-time, .info .phones{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info .work-time{
+    display: flex;
+}
+.info .work-time span, .info .phones span{
+    display: inline-block;
+    width: 100%;
+}
+
+.info .phones{
+    font-weight: bold;
+}
+
+
+
+.dropdown-menu{
+    display: none;
+}
