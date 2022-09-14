@@ -8,7 +8,7 @@ class Header extends Class_father{
 
     events(){
         this.dropdown.on('click', (e)=>{
-            let dropdown_menu = $(e.target).find('.dropdown-menu');
+            let dropdown_menu = $(e.currentTarget).find('.dropdown-menu');
             if($(dropdown_menu).hasClass('dropdown-show')){
                 $(dropdown_menu).removeClass('dropdown-show');
             }else{$(dropdown_menu).addClass('dropdown-show');}
