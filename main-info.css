@@ -8,20 +8,21 @@ main .info{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    /*padding: 30px 0;*/
     box-shadow: 0 0 6px grey;
 }
-main .info div{
-    min-width: 310px;
+main .info>div{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 60%;
     text-align: center;
 }
 .info .work-time, .info .phones{
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    width: 150px;
+    margin: 20px;
 }
 .info .work-time{
     display: flex;

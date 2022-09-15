@@ -1,0 +1,24 @@
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contacts .info{
+    margin-top: 50px;
+    width: 60%;
+    min-width: 310px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contacts p{
+    margin-top: 20px;
+    text-shadow: 0 0 2px lightgrey;
+}
+.contacts iframe{
+    width: 80%;
+    min-width: 310px;
+    height: 400px;
+    margin: 100px auto;
+}

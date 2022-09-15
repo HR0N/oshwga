@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./../settings.css">
     <link rel="stylesheet" href="./../main-info.css">
     <link rel="stylesheet" href="./../header.css">
+    <link rel="stylesheet" href="./../libs/bootstrap.css">
+    <script src="https://use.fontawesome.com/d7f609ebcd.js"></script>
     <title>Document</title>
 </head>
 <body>

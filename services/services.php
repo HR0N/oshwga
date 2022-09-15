@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./../settings.css">
     <link rel="stylesheet" href="./../main-info.css">
     <link rel="stylesheet" href="./../header.css">
+    <link rel="stylesheet" href="./../libs/bootstrap.css">
     <script src="https://use.fontawesome.com/d7f609ebcd.js"></script>
     <title>Document</title>
 </head>
@@ -552,9 +553,35 @@
     </div>
 </div>
 
+<div class="callback_us">
+    <div class="circle">
+        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i></div>
+        <div class="circle_outline">
+        </div>
+    </div>
+    <link rel="stylesheet" href="./../callback_us.css">
+</div>
+<div class="callback_us_modal">
+    <div class="inputs">
+        <input class="form-control name" type="text" placeholder="Как к вам обращаться?">
+        <input class="form-control phone" type="text" placeholder="Ваш номер телефона">
+        <div class="buttons">
+            <div class="btn btn-success senMessage">Отправить</div>
+        </div>
+    </div>
+    <div class="thx_we_will_call_u">
+        <p>Спасибо! Мы свяжемся с вами в ближайшее время.</p>
+    </div>
+    <div class="close_modal">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+</div>
 </body>
 <script src="./../libs/jquery-3.5.1.min.js"></script>
 <script src="./../Class_father.js"></script>
 <script src="./../header.js"></script>
 <script>new Header('header')</script>
+<script src="./../callback_us.js"></script>
+<script src="./../env.js"></script>
+<script>new Callback_us('.callback_us')</script>
 </html>
