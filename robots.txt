@@ -1,0 +1,20 @@
+Host: https://oshwga.evilcode.space
+
+User-Agent: *
+
+Disallow: /contacts/*
+
+
+User-agent: Yahoo
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: https://oshwga.evilcode.space/sitemap.xml
