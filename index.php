@@ -14,7 +14,12 @@
     <script src="libs/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="./libs/bootstrap.css">
     <script src="https://use.fontawesome.com/d7f609ebcd.js"></script>
-    <title>Document</title>
+
+    <meta name="robots" content="none"><!-- disable indexing page -->
+    <meta name="description" content="Мастера сантехники, электрики. Стаж 6+ лет. Киев, область. Срочный выезд при
+    необходимости. Телефоны для консультации: 063 605 66 49, 067 605 66 46.">
+
+    <title>Сантехник, электрик, вызвать сантехника, вызвать электрика</title>
 </head>
 <body>
 <header>
@@ -39,7 +44,7 @@
         </div>
     </div>
     <div class="introduce">
-        <h1>Ремонт сервис техники - "Название"!</h1>
+        <h1>Ремонт сервис техники - "Профессионал"!</h1>
         <p>Опытные  мастера решат ваш вопрос в кротчайшие сроки!</p>
         <p>Опыт - от 10 лет. 30+ заказов ежедневно! Гарантия.</p>
         <p>Более 5000 довольных клиентов!</p>
@@ -102,7 +107,7 @@
     </div>
     <div class="section section-info">
         <div class="section-info__1">
-            <h2>Компания "Название" оказывает услуги: <br> муж на час, сантехника, электрика, отделочника</h2>
+            <h2>Компания "профессионал" оказывает услуги: <br> муж на час, сантехника, электрика, отделочника</h2>
             <ul>
                 <li>Протекает бачок унитаза?</li>
                 <li>Нужно установить новые счетчики или заменить старые?</li>
@@ -223,7 +228,8 @@
     </div>
 </div>
 <footer>
-    <p>F o o t e r</p>
+    <p>© Сайт предоставления услуг «Профессионал»<br>
+        2011–2022</p>
 </footer>
 <script src="Class_father.js"></script>
 <script src="header.js"></script>

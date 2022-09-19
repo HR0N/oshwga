@@ -10,8 +10,14 @@
     <link rel="stylesheet" href="./../main-info.css">
     <link rel="stylesheet" href="./../header.css">
     <link rel="stylesheet" href="./../libs/bootstrap.css">
+    <link rel="stylesheet" href="./../footer.css">
     <script src="https://use.fontawesome.com/d7f609ebcd.js"></script>
-    <title>Document</title>
+
+    <meta name="robots" content="none"><!-- disable indexing page -->
+    <meta name="description" content="Более подробное описание всех видов работ наших мастеров. Телефоны для
+    консультации: 063 605 66 49, 067 605 66 46.">
+
+    <title>Услуги сантехника, услуги электрика</title>
 </head>
 <body>
 <header>
@@ -576,6 +582,10 @@
         <i class="fa fa-times" aria-hidden="true"></i>
     </div>
 </div>
+<footer>
+    <p>© Сайт предоставления услуг «Профессионал»<br>
+        2011–2022</p>
+</footer>
 </body>
 <script src="./../libs/jquery-3.5.1.min.js"></script>
 <script src="./../Class_father.js"></script>

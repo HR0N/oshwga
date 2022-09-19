@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="./../main-info.css">
     <link rel="stylesheet" href="./../header.css">
     <link rel="stylesheet" href="./../libs/bootstrap.css">
+    <link rel="stylesheet" href="./../footer.css">
     <script src="https://use.fontawesome.com/d7f609ebcd.js"></script>
-    <title>Document</title>
+
+    <meta name="robots" content="none"><!-- disable indexing page -->
+
+    <title>Контакты</title>
 </head>
 <body>
 <header>
@@ -38,8 +42,8 @@
 <div class="contacts">
     <div class="info">
         <h2>Как с нами связаться?</h2>
-        <p>Электронная почта: kyievservice.job@gmail.com</p>
-        <p>Онлайн чат: telegram.link</p>
+        <p>Электронная почта: work.it.des@gmail.com</p>
+        <p>Онлайн чат: <a href="https://t.me/+Z-PxwhLEvvthMjUy">telegram</a></p>
         <p>Адрес: Киев ул. Неманская 10.</p>
         <p>kyivstar: 067 605 66 49</p>
         <p>life: 063 605 66 49</p>
@@ -69,6 +73,10 @@
         <i class="fa fa-times" aria-hidden="true"></i>
     </div>
 </div>
+<footer>
+    <p>© Сайт предоставления услуг «Профессионал»<br>
+        2011–2022</p>
+</footer>
 </body>
 <script src="./../libs/jquery-3.5.1.min.js"></script>
 <script src="./../Class_father.js"></script>
